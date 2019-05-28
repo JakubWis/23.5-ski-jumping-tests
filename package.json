@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha index.test.js -b",
+    "test": "mocha calculateTotalPoints.test.js -b",
     "test:watch": "onchange \"./*.js\" -- npm test"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1",
+    "onchange": "^6.0.0"
   }
 }
